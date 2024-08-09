@@ -1,0 +1,79 @@
+body{
+    font-family: Arial, sans-serif;
+    background-color: rgb(70, 148, 100);
+    margin: 0;
+    padding: 0;
+}
+
+.app-container{
+    max-width: 600px;
+    margin: 50px 500px;
+    padding: 30px;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+  }
+
+  h1 {
+    text-align: center;
+    color: rgb(11, 37, 11);
+  }
+  
+  h2 {
+    text-align: center;
+    color: rgb(71, 151, 71);
+  }
+
+  form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+
+
+input {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid grey;
+    border-radius: 4px;
+  }
+
+
+button {
+    padding: 10px;
+    font-size: 16px;
+    background-color:  rgb(15, 17, 16);
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+
+
+button:hover {
+    background-color: rgb(70, 148, 100);
+  }
+
+.expense-list{       
+    margin-top: 20px;
+    }
+
+.expense-item{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    background-color: rgb(115, 204, 149);
+    border: 1px solid white;
+    border-radius: 4px;
+    margin-bottom: 10px;
+
+  }
+
+.reset-button {
+    margin-top: 20px;
+    background-color: rgb(153, 4, 4);
+  }
+  
+.reset-button:hover {
+    background-color: rgb(173, 82, 82);
+  }
